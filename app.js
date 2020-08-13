@@ -6,7 +6,7 @@ function clock() {
     if (hours < 10) {
         hours = "0" + hours;
     }
-    if (hours < 10) {
+    if (minute < 10) {
         minute = "0" + minute;
     }
     if (secs < 10) {
